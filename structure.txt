@@ -1,0 +1,32 @@
+composer.json
+/app
+    /config
+        bootstrap.php
+        config.php
+        config_sampe.php
+        routes.php
+        services.php
+    /commands
+        SampleDatabaseCommand.php
+    /controllers
+        ApiController.php
+    /middlewares
+        SecurityHeadersMiddleware.php
+    /models
+        Database.php
+        User.php
+    /views
+        /auth
+            register.php
+        /layout
+/public
+.htaccess
+index.php
+style.css
+    /images
+    /js
+        register.js
+/vendor
+
+
+
