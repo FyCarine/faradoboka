@@ -36,7 +36,7 @@ return [
 
 	'database' => [
 		'host'     => 'localhost',
-		'dbname'   => 'mvcValidation',
+		'dbname'   => 'takalo',
 		'user'     => 'root',
 		'password' => '',
 
