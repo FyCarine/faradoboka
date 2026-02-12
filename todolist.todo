@@ -1,0 +1,57 @@
+☐ Base de données mysql
+    ☐ créer database takalo
+    ☐ table
+        ☐ admin
+            ☐ id
+            ☐ name
+            ☐ email
+            ☐ password
+        ☐ user
+            ☐ id
+            ☐ email
+            ☐ password
+        ☐ object
+            ☐ id
+            ☐ name
+            ☐ description
+            ☐ price
+            ☐ image
+            ☐ owner_id
+        ☐ exchange
+            ☐ id
+            ☐ object_id
+            ☐ proposed_object_id
+            ☐ owner_id
+            ☐ new_owner_id
+            ☐ status
+            ☐ date
+    
+    ☐ création données test
+
+☐ Flight MVC
+    ☐ prendre un template Flight pret
+    ☐ créer les routes
+        ☐ / (page login)
+        ☐ /login (post)
+        ☐ /admin (login admin)
+        ☐ /object (page de tous les objets)
+        ☐ /detail-object/{id} (page de détail d'un objet)
+        ☐ /propose-exchange/{id} (page de proposition d'échange)
+        ☐ /waiting-exchange (page d'attente d'échange)
+        ☐ /my-object (page de mes objets)
+        ☐ /my-exchange (page de mes échanges)
+        ☐ /logout (deconnexion)
+        ☐ /add-object (page d'ajout d'objet)
+        ☐ /delete-object/{id} (suppression d'un objet)
+        ☐ /accept-exchange/{id exchange} (accepter une proposition d'échange)
+        ☐ /refuse-exchange/{id exchange} (refuser une proposition d'échange)
+    ☐ créer les vues
+        ☐ login user
+        ☐ login admin
+        ☐ page d'accueil
+        ☐ page de détail d'un objet
+        ☐ page de proposition d'échange
+        ☐ page d'attente d'échange
+        ☐ page de mes objets
+        ☐ page de mes échanges
+        ☐ page d'ajout d'objet
