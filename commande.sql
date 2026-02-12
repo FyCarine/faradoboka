@@ -73,12 +73,12 @@ CREATE TABLE exchanges (
 
 -- Admin (admin123)
 INSERT INTO admins(name,email,password) VALUES
-('Super Admin','admin@takalo.com','$2y$10$D4x7uWBxD0a7JtP2q.6M6O71O/PGJRXcE6o0o4dY1A4V4o1v3m0cS');
+('Super Admin','admin@takalo.com','admin');
 
 -- Users (123456)
 INSERT INTO users(email,password) VALUES
-('u1@takalo.com','$2y$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy'),
-('u2@takalo.com','$2y$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy');
+('u1@takalo.com','user1'),
+('u2@takalo.com','user2');
 
 -- Objects
 INSERT INTO objects(name,description,value,image,owner_id) VALUES
